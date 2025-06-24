@@ -1,0 +1,16 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Ajuste colorcolumna izquierda */
+.bg-primary{
+    background-color: #aa3a58 !important;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}

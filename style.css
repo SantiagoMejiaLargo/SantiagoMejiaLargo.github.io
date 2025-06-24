@@ -14,3 +14,11 @@ a{
 a:hover{
     text-decoration: underline;
 }
+
+.progress{
+    background-color: rgb(169, 164, 164) !important;
+}
+
+.progress-bar{
+    background-color: #F2F2F2 !important;
+}

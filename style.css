@@ -2,9 +2,22 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body{
+    margin-top: 0;
+
+}
+
+@media print {
+    .shadow-lg,
+    .card:hover {
+        box-shadow: none !important;
+        transform: none !important;
+    } 
+}
+
 /* Ajuste colorcolumna izquierda */
 .bg-primary{
-    background-color: #aa3a58 !important;
+    background-color: #591E29 !important;
 }
 
 a{
@@ -22,3 +35,19 @@ a:hover{
 .progress-bar{
     background-color: #F2F2F2 !important;
 }
+
+h4{
+    color: #8C3545 !important;
+}
+
+.card{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+
+}
+
